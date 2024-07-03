@@ -1,6 +1,14 @@
 {
-  "name": "search-package",
+  "name": "@ge-corp/search-package",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Geronimo-montes/search-package"
+  },
+  "description": "asdfas",
+  "keywords": [
+    "search"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +16,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
@@ -23,6 +31,7 @@
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^18.0.7",
     "@angular/cli": "^18.0.4",
     "@angular/compiler-cli": "^18.0.0",
     "@types/jasmine": "~5.1.0",
